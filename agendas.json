@@ -1,0 +1,470 @@
+{
+  "event": {
+    "name": "DevFest Kisumu 2026",
+    "edition": "Lake City Edition",
+    "tagline": "Building the Future with AI, Cloud & Open Technologies on the Equator",
+    "theme": "Next-Gen Tech: AI Agents, Cloud Scale & Sustainable Innovation",
+    "date": "Saturday, November 7, 2026",
+    "time": "08:00 AM - 06:00 PM EAT",
+    "timezone": "Africa/Nairobi (UTC+3)",
+    "venue": {
+      "name": "Ciala Resort & Conference Centre",
+      "city": "Kisumu",
+      "country": "Kenya",
+      "address": "Kajulu Hills Road, Off Kisumu - Busia Highway, Kisumu",
+      "mapUrl": "https://maps.google.com/?q=Ciala+Resort+Kisumu"
+    },
+    "organizer": {
+      "name": "GDG Kisumu & Women Techmakers Kisumu",
+      "email": "organizers@gdgkisumu.org",
+      "communityUrl": "https://gdg.community.dev/gdg-kisumu/"
+    },
+    "stats": {
+      "expectedAttendees": "1,200+",
+      "totalSessions": 14,
+      "totalSpeakers": 10,
+      "tracksCount": 5,
+      "stagesCount": 4
+    }
+  },
+  "tracks": [
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning",
+      "color": "#4285F4",
+      "badgeBg": "rgba(66, 133, 244, 0.12)",
+      "badgeBorder": "#4285F4",
+      "icon": "brain"
+    },
+    {
+      "id": "cloud-devops",
+      "name": "Cloud & DevOps",
+      "color": "#0F9D58",
+      "badgeBg": "rgba(15, 157, 88, 0.12)",
+      "badgeBorder": "#0F9D58",
+      "icon": "cloud"
+    },
+    {
+      "id": "mobile-web",
+      "name": "Mobile & Modern Web",
+      "color": "#F4B400",
+      "badgeBg": "rgba(244, 180, 0, 0.12)",
+      "badgeBorder": "#F4B400",
+      "icon": "smartphone"
+    },
+    {
+      "id": "cybersecurity-iot",
+      "name": "Cybersecurity & IoT",
+      "color": "#DB4437",
+      "badgeBg": "rgba(219, 68, 55, 0.12)",
+      "badgeBorder": "#DB4437",
+      "icon": "shield"
+    },
+    {
+      "id": "community-career",
+      "name": "Design, Career & Community",
+      "color": "#AB47BC",
+      "badgeBg": "rgba(171, 71, 188, 0.12)",
+      "badgeBorder": "#AB47BC",
+      "icon": "users"
+    }
+  ],
+  "stages": [
+    {
+      "id": "auditorium",
+      "name": "Lake Victoria Auditorium",
+      "type": "Main Stage",
+      "capacity": 700,
+      "location": "Ground Floor, Main Pavillion"
+    },
+    {
+      "id": "riat-hills",
+      "name": "Riat Hills Stage",
+      "type": "Cloud & AI Track",
+      "capacity": 250,
+      "location": "First Floor, Wing A"
+    },
+    {
+      "id": "dunga-beach",
+      "name": "Dunga Beach Hall",
+      "type": "Mobile & Web Track",
+      "capacity": 200,
+      "location": "First Floor, Wing B"
+    },
+    {
+      "id": "kibuye-lab",
+      "name": "Kibuye Innovation Lab",
+      "type": "Hands-on Workshops",
+      "capacity": 120,
+      "location": "Tech Hub Building, Ground Level"
+    }
+  ],
+  "speakers": [
+    {
+      "id": "spk-achieng",
+      "name": "Dr. Achieng Odhiambo",
+      "role": "Principal AI Researcher & Google Developer Expert (ML)",
+      "organization": "Nairobi AI Institute & DeepMind Community",
+      "bio": "Dr. Achieng is a leading researcher in multilingual natural language processing and multimodal AI architectures for African languages. With over a decade of research, she has spoken at NeurIPS and Google I/O.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/achieng_ai",
+        "linkedin": "https://linkedin.com/in/achieng-odhiambo",
+        "github": "https://github.com/achieng-ml"
+      },
+      "featured": true
+    },
+    {
+      "id": "spk-brian",
+      "name": "Brian Otieno",
+      "role": "Staff Cloud Architect",
+      "organization": "Safaricom PLC",
+      "bio": "Brian designs hyper-scale transactional pipelines and zero-downtime distributed systems serving over 30 million active digital financial users daily across East Africa.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/brian_cloud",
+        "linkedin": "https://linkedin.com/in/brian-otieno-cloud",
+        "github": "https://github.com/brianotieno"
+      },
+      "featured": true
+    },
+    {
+      "id": "spk-faith",
+      "name": "Faith Mwende",
+      "role": "Senior Android & Flutter Lead | WTM Ambassador",
+      "organization": "Africa's Talking",
+      "bio": "Faith is a passionate mobile developer and active Women Techmakers Ambassador. She specializes in offline-first architectures, declarative animations, and performant cross-platform mobile apps.",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/faith_codes",
+        "linkedin": "https://linkedin.com/in/faith-mwende",
+        "github": "https://github.com/faithmwende"
+      },
+      "featured": true
+    },
+    {
+      "id": "spk-kevin",
+      "name": "Kevin Omondi",
+      "role": "Principal Cybersecurity Engineer",
+      "organization": "Cybershield Africa",
+      "bio": "Kevin specializes in offensive security, cloud workload protection, and DevSecOps pipelines. He mentors ethical hacking enthusiasts across universities in Western Kenya.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/kevin_sec",
+        "linkedin": "https://linkedin.com/in/kevin-omondi-sec",
+        "github": "https://github.com/kevinomondi"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-brenda",
+      "name": "Brenda Awuor",
+      "role": "Open Source Lead & Web Platform Engineer",
+      "organization": "GDG Kisumu Community",
+      "bio": "Brenda is a champion of the open web and community organizer. She has guided hundreds of student developers into contributing to global open source projects and modern web standards.",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/brenda_awuor",
+        "linkedin": "https://linkedin.com/in/brenda-awuor",
+        "github": "https://github.com/brendaawuor"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-samuel",
+      "name": "Samuel Kiprono",
+      "role": "Staff Data Platform Engineer",
+      "organization": "Microsoft Africa Development Centre",
+      "bio": "Samuel develops petabyte-scale data mesh platforms, streaming telemetry pipelines, and Lakehouse architectures using Apache Iceberg, Spark, and BigQuery.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/sam_data",
+        "linkedin": "https://linkedin.com/in/samuel-kiprono",
+        "github": "https://github.com/samuelkiprono"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-juliet",
+      "name": "Juliet Nekesa",
+      "role": "Head of Product Experience & Design Systems",
+      "organization": "Moringa School",
+      "bio": "Juliet advocates for accessibility, emotional design, and high-fidelity user research. She has spearheaded design transformations for prominent pan-African educational and logistics products.",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/juliet_ux",
+        "linkedin": "https://linkedin.com/in/juliet-nekesa",
+        "github": "https://github.com/julietnekesa"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-dennis",
+      "name": "Dennis Munene",
+      "role": "Hardware & IoT Innovations Architect",
+      "organization": "LakeHub Kisumu",
+      "bio": "Dennis merges low-power microcontrollers with edge machine learning to build real-world environmental monitors and aquaculture sensor grids along the shores of Lake Victoria.",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/dennis_iot",
+        "linkedin": "https://linkedin.com/in/dennis-munene-iot",
+        "github": "https://github.com/dennismunene"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-mercy",
+      "name": "Mercy Chebet",
+      "role": "Founder & Tech Career Coach",
+      "organization": "SheCodes Western / Techstars Mentor",
+      "bio": "Mercy is an award-winning mentor who empowers underrepresented engineers into global engineering roles, remote international internships, and venture-backed founder paths.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/mercy_chebet",
+        "linkedin": "https://linkedin.com/in/mercy-chebet",
+        "github": "https://github.com/mercychebet"
+      },
+      "featured": false
+    },
+    {
+      "id": "spk-emmanuel",
+      "name": "Emmanuel Ochieng",
+      "role": "Generative AI Solutions Architect",
+      "organization": "Google Cloud & GDG Mentor",
+      "bio": "Emmanuel helps engineering teams across EMEA and Africa implement multi-agent workflows, fine-tune Gemini models, and build low-latency RAG architectures.",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+      "socials": {
+        "twitter": "https://twitter.com/emmanuel_genai",
+        "linkedin": "https://linkedin.com/in/emmanuel-ochieng-ai",
+        "github": "https://github.com/emmanuelochieng"
+      },
+      "featured": true
+    }
+  ],
+  "agendas": [
+    {
+      "id": "agenda-01",
+      "timeSlot": "08:00 - 09:00",
+      "startTime": "08:00 AM",
+      "endTime": "09:00 AM",
+      "duration": "60 mins",
+      "title": "Registration, Welcome Breakfast & DevFest Expo",
+      "description": "Check-in, collect your DevFest Kisumu 2026 swag kit, enjoy tea and refreshments, and connect with community partners and student developer booths.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Networking & Check-in",
+      "level": "All Audiences",
+      "speakers": [],
+      "tags": ["Networking", "Swag", "Breakfast", "Community"],
+      "prerequisites": "Confirmation QR code or Ticket ID"
+    },
+    {
+      "id": "agenda-02",
+      "timeSlot": "09:00 - 09:30",
+      "startTime": "09:00 AM",
+      "endTime": "09:30 AM",
+      "duration": "30 mins",
+      "title": "Opening Ceremony: Celebrating 12 Years of GDG Kisumu & Tech Growth",
+      "description": "Welcome remarks from the GDG Kisumu and Women Techmakers lead team, setting the vision for DevFest 2026 and recognizing local tech ecosystem milestones.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Opening Ceremony",
+      "level": "All Audiences",
+      "speakers": ["spk-brenda", "spk-mercy"],
+      "tags": ["DevFest2026", "GDGKisumu", "WTM", "Keynote"],
+      "prerequisites": "None"
+    },
+    {
+      "id": "agenda-03",
+      "timeSlot": "09:30 - 10:30",
+      "startTime": "09:30 AM",
+      "endTime": "10:30 AM",
+      "duration": "60 mins",
+      "title": "Keynote: The Frontier of Multimodal AI & Autonomous Agents in Sub-Saharan Africa",
+      "description": "A comprehensive exploration of how multimodal foundational models and autonomous reasoning agents are transforming healthcare, agricultural yields, and multilingual digital public infrastructure across Africa.",
+      "trackId": "ai-ml",
+      "stageId": "auditorium",
+      "sessionType": "Keynote Address",
+      "level": "All Audiences",
+      "speakers": ["spk-achieng"],
+      "tags": ["Generative AI", "Agents", "Multimodal", "Gemini", "African Tech"],
+      "prerequisites": "Curiosity about modern AI developments"
+    },
+    {
+      "id": "agenda-04",
+      "timeSlot": "10:30 - 11:00",
+      "startTime": "10:30 AM",
+      "endTime": "11:00 AM",
+      "duration": "30 mins",
+      "title": "Lake Victoria Morning Tea, Group Photo & Booth Exhibitions",
+      "description": "Network over refreshments, visit sponsor showcases, and participate in the official DevFest Kisumu 2026 group photo outside the pavilion.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Break & Networking",
+      "level": "All Audiences",
+      "speakers": [],
+      "tags": ["Networking", "Group Photo", "Exhibition"],
+      "prerequisites": "None"
+    },
+    {
+      "id": "agenda-05",
+      "timeSlot": "11:00 - 11:50",
+      "startTime": "11:00 AM",
+      "endTime": "11:50 AM",
+      "duration": "50 mins",
+      "title": "Building Resilient FinTech Microservices with Kubernetes and GCP",
+      "description": "Step inside Safaricom's architectural playbook: managing tens of millions of financial transactions per second, multi-region failover, chaos engineering, and zero-trust service mesh.",
+      "trackId": "cloud-devops",
+      "stageId": "riat-hills",
+      "sessionType": "Deep Dive Technical Talk",
+      "level": "Advanced",
+      "speakers": ["spk-brian"],
+      "tags": ["Kubernetes", "GCP", "Istio", "Microservices", "FinTech"],
+      "prerequisites": "Familiarity with Docker, cloud infrastructure, and microservices"
+    },
+    {
+      "id": "agenda-06",
+      "timeSlot": "11:00 - 11:50",
+      "startTime": "11:00 AM",
+      "endTime": "11:50 AM",
+      "duration": "50 mins",
+      "title": "Flutter 4.x & Dart: Crafting Ultra-Fluid Cross-Platform Experiences for Emerging Markets",
+      "description": "Learn how to build lightweight, battery-efficient Flutter mobile applications that run smoothly on budget devices with spotty internet connectivity. Covers Impeller graphics and offline caching.",
+      "trackId": "mobile-web",
+      "stageId": "dunga-beach",
+      "sessionType": "Technical Session",
+      "level": "Intermediate",
+      "speakers": ["spk-faith"],
+      "tags": ["Flutter", "Dart", "Android", "Impeller", "Mobile UX"],
+      "prerequisites": "Basic understanding of Flutter or mobile app development"
+    },
+    {
+      "id": "agenda-07",
+      "timeSlot": "11:50 - 12:40",
+      "startTime": "11:50 AM",
+      "endTime": "12:40 PM",
+      "duration": "50 mins",
+      "title": "Zero-Trust Architecture & Securing Cloud-Native APIs in 2026",
+      "description": "Real-world threat modeling for cloud APIs: OAuth 2.1 hardening, mutual TLS, automated supply chain vulnerability scanning (SLSA), and runtime threat detection with eBPF.",
+      "trackId": "cybersecurity-iot",
+      "stageId": "riat-hills",
+      "sessionType": "Technical Session",
+      "level": "Intermediate",
+      "speakers": ["spk-kevin"],
+      "tags": ["Cybersecurity", "Zero Trust", "APIs", "DevSecOps", "eBPF"],
+      "prerequisites": "Familiarity with REST APIs and basic cloud concepts"
+    },
+    {
+      "id": "agenda-08",
+      "timeSlot": "11:50 - 12:40",
+      "startTime": "11:50 AM",
+      "endTime": "12:40 PM",
+      "duration": "50 mins",
+      "title": "Designing for the Next Billion Users: Accessible UX and Inclusive Design Systems",
+      "description": "Translating cultural nuances, low-bandwidth affordances, and multi-lingual voice interactions into cohesive, scalable design systems for African consumer applications.",
+      "trackId": "community-career",
+      "stageId": "dunga-beach",
+      "sessionType": "Interactive Case Study",
+      "level": "Beginner",
+      "speakers": ["spk-juliet"],
+      "tags": ["UI/UX", "Design Systems", "Accessibility", "Figma", "Research"],
+      "prerequisites": "None"
+    },
+    {
+      "id": "agenda-09",
+      "timeSlot": "12:40 - 01:50",
+      "startTime": "12:40 PM",
+      "endTime": "01:50 PM",
+      "duration": "70 mins",
+      "title": "Lunch Buffet, Swag Exchange & Community Networking",
+      "description": "Enjoy a traditional lakeside buffet, connect with hiring partners, exchange badges, and participate in lightning mentor speed-dating sessions.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Lunch & Social",
+      "level": "All Audiences",
+      "speakers": [],
+      "tags": ["Lunch", "Networking", "Career Fair", "Social"],
+      "prerequisites": "Conference pass badge"
+    },
+    {
+      "id": "agenda-10",
+      "timeSlot": "01:50 - 03:00",
+      "startTime": "01:50 PM",
+      "endTime": "03:00 PM",
+      "duration": "70 mins",
+      "title": "Hands-on Lab: Fine-Tuning Open Source LLMs & RAG Pipelines with Vertex AI",
+      "description": "Bring your laptop! We will build an intelligent document assistant utilizing Gemini 2.0 Flash embeddings, vector search, and custom tool calling with Python and Vertex AI.",
+      "trackId": "ai-ml",
+      "stageId": "kibuye-lab",
+      "sessionType": "Hands-on Workshop",
+      "level": "Intermediate",
+      "speakers": ["spk-emmanuel"],
+      "tags": ["Hands-on", "Vertex AI", "RAG", "Python", "Vector Search"],
+      "prerequisites": "Laptop with Python 3.10+ and a Google Cloud account (free credits provided at venue)"
+    },
+    {
+      "id": "agenda-11",
+      "timeSlot": "01:50 - 02:40",
+      "startTime": "01:50 PM",
+      "endTime": "02:40 PM",
+      "duration": "50 mins",
+      "title": "Smart Agriculture on Lake Victoria: Edge AI & LoRaWAN Sensors for Fisherfolk",
+      "description": "A field-tested demonstration of deploying ESP32 microcontrollers, solar-harvesting edge sensors, and underwater water-quality probes delivering real-time alerts via USSD and SMS.",
+      "trackId": "cybersecurity-iot",
+      "stageId": "riat-hills",
+      "sessionType": "Hardware & IoT Demo",
+      "level": "Intermediate",
+      "speakers": ["spk-dennis"],
+      "tags": ["IoT", "Edge AI", "LoRaWAN", "Hardware", "Lake Victoria"],
+      "prerequisites": "Interest in electronics and embedded systems"
+    },
+    {
+      "id": "agenda-12",
+      "timeSlot": "02:40 - 03:30",
+      "startTime": "02:40 PM",
+      "endTime": "03:30 PM",
+      "duration": "50 mins",
+      "title": "Real-Time Lakehouse Analytics with Apache Iceberg & BigQuery",
+      "description": "How modern data teams unify streaming transactions and batch reporting into open table formats. Learn how Iceberg avoids vendor lock-in and slashes query costs by 65%.",
+      "trackId": "cloud-devops",
+      "stageId": "riat-hills",
+      "sessionType": "Technical Talk",
+      "level": "Advanced",
+      "speakers": ["spk-samuel"],
+      "tags": ["Data Engineering", "Apache Iceberg", "BigQuery", "Streaming", "SQL"],
+      "prerequisites": "Basic understanding of data warehouses and SQL"
+    },
+    {
+      "id": "agenda-13",
+      "timeSlot": "03:30 - 04:30",
+      "startTime": "03:30 PM",
+      "endTime": "04:30 PM",
+      "duration": "60 mins",
+      "title": "Panel: Navigating Tech Careers, Global Remote Work & Open Source from Western Kenya",
+      "description": "An inspiring, no-holds-barred conversation with leaders who built international tech careers right from Kisumu, Kakamega, and Eldoret. Discussing compensation, contracts, mental health, and giving back.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Panel Discussion",
+      "level": "All Audiences",
+      "speakers": ["spk-mercy", "spk-brenda", "spk-faith", "spk-brian"],
+      "tags": ["Panel", "Remote Work", "Career", "Open Source", "Mentorship"],
+      "prerequisites": "None"
+    },
+    {
+      "id": "agenda-14",
+      "timeSlot": "04:30 - 05:30",
+      "startTime": "04:30 PM",
+      "endTime": "05:30 PM",
+      "duration": "60 mins",
+      "title": "DevFest 2026 Awards, Hackathon Winners & Closing Ceremony",
+      "description": "Recognition of standout student projects, women-in-tech contributors, quiz tournament awards, raffle prizes (Chromebooks, Google swag, cloud vouchers), and farewell toast.",
+      "trackId": "community-career",
+      "stageId": "auditorium",
+      "sessionType": "Awards & Closing",
+      "level": "All Audiences",
+      "speakers": ["spk-achieng", "spk-brenda", "spk-mercy"],
+      "tags": ["Awards", "Swag", "Hackathon", "Closing", "Celebration"],
+      "prerequisites": "DevFest Kisumu attendee wristband"
+    }
+  ]
+}

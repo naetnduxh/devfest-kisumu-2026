@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevFest Kisumu 2026 | Speaker Schedules & Agendas</title>
+  <meta name="description" content="Explore speaker schedules, keynotes, technical workshops, and agendas for DevFest Kisumu 2026 Lake City Edition.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='5' cy='12' r='3' fill='%234285F4'/><circle cx='10' cy='6' r='3' fill='%23EA4335'/><circle cx='15' cy='18' r='3' fill='%23FBBC05'/><circle cx='19' cy='12' r='3' fill='%2334A853'/></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="brand" title="DevFest Kisumu 2026">
+        <div class="brand-dots">
+          <div class="dot dot-blue"></div>
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green"></div>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">DevFest <span>Kisumu</span> 2026</span>
+          <span class="brand-subtitle">Lake City Edition • GDG & WTM</span>
+        </div>
+      </a>
+
+      <!-- Desktop View Tabs -->
+      <nav class="nav-tabs" aria-label="Main Navigation">
+        <button class="nav-tab-btn active" data-tab="schedule">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Schedule</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="speakers">
+          <i class="fa-solid fa-users"></i>
+          <span>Speakers</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="bookmarks">
+          <i class="fa-solid fa-bookmark"></i>
+          <span>My Schedule</span>
+          <span class="badge-counter" id="bookmarkCountNav">0</span>
+        </button>
+      </nav>
+
+      <!-- Right Controls -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-section">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container hero-content">
+      <div class="hero-pill">
+        <i class="fa-solid fa-bolt"></i>
+        <span id="heroTagline">Official GDG Kisumu Gathering</span>
+      </div>
+      <h1 class="hero-title">
+        DevFest Kisumu <span class="gradient-text">2026</span>
+      </h1>
+      <p class="hero-subtitle" id="heroSubtitle">
+        Building the Future with AI Agents, Cloud Scale & Sustainable Innovation on the Equator.
+      </p>
+
+      <div class="event-meta-cards">
+        <div class="meta-chip">
+          <i class="fa-regular fa-calendar"></i>
+          <span id="heroDate">Saturday, November 7, 2026</span>
+        </div>
+        <div class="meta-chip">
+          <i class="fa-solid fa-clock"></i>
+          <span id="heroTime">08:00 AM - 06:00 PM EAT</span>
+        </div>
+        <div class="meta-chip">
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="heroVenue">Ciala Resort & Conference Centre, Kisumu</span>
+        </div>
+      </div>
+
+      <!-- Quick Summary Stats -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <div class="stat-value" id="statSessions">14</div>
+          <div class="stat-label">Agendas / Talks</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statSpeakers">10</div>
+          <div class="stat-label">Speakers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statTracks">5</div>
+          <div class="stat-label">Tracks</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statStages">4</div>
+          <div class="stat-label">Stages</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="statAttendees">1,200+</div>
+          <div class="stat-label">Attendees</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Filters & Search Toolbar -->
+  <section class="toolbar-section">
+    <div class="container toolbar-grid">
+      <div class="toolbar-primary">
+        <div class="search-box-wrap">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input 
+            type="search" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search sessions, speakers, topics, keywords..."
+            aria-label="Search agendas and speakers"
+          >
+        </div>
+
+        <div class="dropdown-filters">
+          <select id="stageFilterSelect" class="custom-select" aria-label="Filter by stage or room">
+            <option value="all">All Stages & Rooms</option>
+          </select>
+
+          <select id="levelFilterSelect" class="custom-select" aria-label="Filter by difficulty level">
+            <option value="all">All Levels</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+            <option value="All Audiences">All Audiences</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Track Pills Bar -->
+      <div class="track-pills-bar" id="trackPillsContainer" role="radiogroup" aria-label="Filter by track">
+        <button class="track-pill-btn active" data-track="all">
+          <span class="track-pill-indicator" style="background:#4285F4;"></span>
+          <span>All Tracks</span>
+          <span class="pill-count" id="allTracksCount">(0)</span>
+        </button>
+        <!-- Populated via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Views -->
+  <main class="container main-content">
+    
+    <!-- Schedule View (Default) -->
+    <div id="scheduleView" class="view-panel">
+      <div class="section-header-row">
+        <h2 class="section-heading">
+          <i class="fa-regular fa-clock" style="color:var(--g-blue);"></i>
+          <span>Event Timeline & Sessions</span>
+        </h2>
+        <span class="results-count-text" id="scheduleCountText">Showing all sessions</span>
+      </div>
+
+      <div class="schedule-container" id="scheduleTimeline">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+
+    <!-- Speakers Directory View -->
+    <div id="speakersView" class="view-panel" style="display: none;">
+      <div class="section-header-row">
+        <h2 class="section-heading">
+          <i class="fa-solid fa-microphone-lines" style="color:var(--g-red);"></i>
+          <span>Featured Speakers & Mentors</span>
+        </h2>
+        <span class="results-count-text" id="speakersCountText">Showing all speakers</span>
+      </div>
+
+      <div class="speakers-grid" id="speakersGrid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+
+    <!-- My Schedule / Bookmarks View -->
+    <div id="bookmarksView" class="view-panel" style="display: none;">
+      <div class="section-header-row">
+        <h2 class="section-heading">
+          <i class="fa-solid fa-star" style="color:var(--g-yellow);"></i>
+          <span>My Personalized DevFest Schedule</span>
+        </h2>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="card-action-btn" id="exportIcalBtn">
+            <i class="fa-solid fa-file-arrow-down"></i> Export .ICS
+          </button>
+          <button class="card-action-btn" id="clearBookmarksBtn" style="color: var(--g-red);">
+            <i class="fa-solid fa-trash-can"></i> Clear All
+          </button>
+        </div>
+      </div>
+
+      <div class="schedule-container" id="bookmarksTimeline">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Detail Modal Dialog -->
+  <div class="modal-overlay" id="sessionModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <span class="badge-tag" id="modalTrackBadge" style="margin-bottom: 0.5rem; display:inline-block;">Track</span>
+          <h2 class="agenda-title" id="modalTitle" style="font-size: 1.35rem; cursor: default;">Session Title</h2>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Metadata Grid -->
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Time & Duration</span>
+            <span class="modal-meta-value" id="modalTime">09:30 AM (60 mins)</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Stage / Room</span>
+            <span class="modal-meta-value" id="modalStage">Auditorium</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Difficulty Level</span>
+            <span class="modal-meta-value" id="modalLevel">Intermediate</span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="modal-meta-label">Format</span>
+            <span class="modal-meta-value" id="modalType">Deep Dive Talk</span>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div>
+          <h4 style="font-size: 0.9rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--text-primary);">Session Overview</h4>
+          <p id="modalDescription" style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6;"></p>
+        </div>
+
+        <!-- Prerequisites if any -->
+        <div id="modalPrerequisitesWrap" style="background: var(--bg-secondary); padding: 0.85rem 1rem; border-radius: var(--radius-sm); border-left: 3px solid var(--g-yellow);">
+          <strong style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); display:block; margin-bottom: 0.2rem;">Prerequisites & Setup</strong>
+          <span id="modalPrerequisites" style="font-size: 0.85rem; color: var(--text-primary);"></span>
+        </div>
+
+        <!-- Speakers List -->
+        <div>
+          <h4 style="font-size: 0.9rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">Presenters</h4>
+          <div id="modalSpeakersContainer" style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div>
+          <h4 style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--text-muted); text-transform: uppercase;">Topics</h4>
+          <div class="tag-list-chips" id="modalTagsContainer"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-primary" id="modalBookmarkToggleBtn">
+          <i class="fa-regular fa-star"></i> Add to My Schedule
+        </button>
+        <button class="card-action-btn" id="modalDownloadIcsBtn">
+          <i class="fa-regular fa-calendar-plus"></i> Add to Calendar (.ics)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Nav -->
+  <nav class="mobile-nav-bar" aria-label="Mobile Navigation">
+    <button class="mobile-nav-btn active" data-tab="schedule">
+      <i class="fa-regular fa-calendar-check" style="font-size: 1.2rem;"></i>
+      <span>Schedule</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="speakers">
+      <i class="fa-solid fa-users" style="font-size: 1.2rem;"></i>
+      <span>Speakers</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="bookmarks">
+      <i class="fa-solid fa-bookmark" style="font-size: 1.2rem;"></i>
+      <span>My Plan (<span id="bookmarkCountMobile">0</span>)</span>
+    </button>
+  </nav>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="brand-dots">
+        <div class="dot dot-blue"></div>
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <p class="footer-text">
+        <strong>DevFest Kisumu 2026</strong> is organized by Google Developer Group (GDG) Kisumu & Women Techmakers (WTM).<br>
+        Powered by Node.js & Express with agendas dynamically sourced from <code>data/agendas.json</code>.
+      </p>
+      <div class="footer-links">
+        <a href="/api/agendas" target="_blank" class="footer-link"><i class="fa-solid fa-code"></i> REST API (/api/agendas)</a>
+        <a href="/api/speakers" target="_blank" class="footer-link"><i class="fa-solid fa-code"></i> Speakers API</a>
+        <a href="/api/event" target="_blank" class="footer-link"><i class="fa-solid fa-circle-info"></i> Event Info</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
